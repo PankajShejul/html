@@ -1,0 +1,45 @@
+.dropdown-item:hover{
+    background-color: blue;
+}
+.table td, .table th {
+    padding: 30px 20px;
+    vertical-align: center;
+    border-top: none;
+}
+
+.table thead th {
+    
+     border-bottom: none;
+}
+
+.header-top-bar {
+    background-color: #94cac5;
+
+}
+
+.second-section-last-row-number {
+    font-size: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #333333;
+
+}
+
+.second-section-last-row-text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+
+.third-section {
+    background-image: url('bg-event-1.jpg');
+}
+
+@media screen and (max-width: 1024px) {
+    .forum-table-holder {
+        max-width: 100%;
+        margin: 0;
+        overflow-x: scroll;
+    }
+}
